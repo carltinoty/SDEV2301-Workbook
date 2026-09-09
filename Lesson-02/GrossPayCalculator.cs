@@ -1,10 +1,10 @@
 //Parse Text Before doing Arithmetic
 Console.Write("Rate: ");
-decimal rateInput = Console.ReadLine() ?? "";
-int rate = int.Parse(rateInput);
+string rateInput = Console.ReadLine() ?? "";
+decimal rate = decimal.Parse(rateInput);
 
 Console.Write("Hours: ");
 string hoursInput = Console.ReadLine() ?? "";
-int hours = int.Parse(hoursInput);
+decimal hours = decimal.Parse(hoursInput);
 
-Console.WriteLine($"Gross Pay: {rate * hours}");
+Console.WriteLine($"Gross Pay: ${rate * hours}");

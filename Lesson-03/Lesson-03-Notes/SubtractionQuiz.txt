@@ -1,0 +1,5 @@
+The code creates a Random object named random, which is used to generate random numbers.
+
+random.Next(1, 10) assigns each variable a random integer from 1 through 9. The upper limit, 10, is exclusive.
+
+The if statement checks whether a is smaller than b. If so, (a, b) = (b, a); swaps their values. This ensures that a is always greater than or equal to b, which is useful for creating a subtraction problem that does not produce a negative answer.

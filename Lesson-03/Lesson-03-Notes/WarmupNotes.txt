@@ -1,0 +1,12 @@
+CODE
+using static System.Console; 
+--Enables access to all static --SO WE DON'T NEED TO USE "Console" all the time
+
+int age = int.Parse(ReadLine());
+          \________/
+          To parse/convert the string input from ReadLine() into an integer value.
+
+int age = int.Parse(ReadLine() ?? "0");
+                               \_____/
+                               Saying that age can never be null, and if it is, it will default to 0.
+    
