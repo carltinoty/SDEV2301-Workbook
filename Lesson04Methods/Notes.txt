@@ -1,0 +1,6 @@
+Functions Syntax
+
+class "name" {
+    // function body
+}
+
